@@ -1,0 +1,52 @@
+/*.container {
+    padding: 20px;
+    background-color: crimson;
+}
+
+.box {
+    padding-top: 20px;
+    background-color: aqua;
+    padding-right: 10px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+
+    background-color: aqua;
+
+    padding: 20px 10px 50px 40px;
+2 li kullanım yukarı-aşağı(ilk y ikinci x)
+  3 lü kullanım yukarı-sağ-aşağı değer verir
+
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: yellow;
+    renk vermesek bile siyah algılar
+   çünkü body den siyahı inherit eder
+
+    border: 10px dashed yellow;
+ yerine tek bir border yazıp 3 şeyi aynı anda belirtebiliriz
+
+}
+*/
+
+/*body {
+    height: 100vh;
+    background-image: url("bmwm41.jpg");
+    background-repeat: no-repeat;
+    background-position: center;  veya tek bir background da yazılabilir
+
+    height: 100vh;
+    background: blue url("porcshe.jpg") center no-repeat;
+
+} */
+
+/*body {
+    font: italic bold 20px/1.4 sans-serif;
+    fontu tek bir font başlığında belirleyebiliriz
+}*/

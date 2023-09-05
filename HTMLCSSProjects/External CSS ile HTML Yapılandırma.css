@@ -1,0 +1,10 @@
+h1  {
+    color: darkblue;
+    padding: 10px;
+}
+
+p   {color: blueviolet}
+h2  {color: orangered;}
+a   {text-decoration: none}
+span{color: orangered}
+*   {font-size: 20px}

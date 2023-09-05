@@ -1,0 +1,41 @@
+/*html {
+    font-size: 32px; 1 em font size a eşit
+                     1 rem = root em
+
+
+
+}
+
+.container {
+    font-size: 16px;
+}
+
+.container p:nth-child(2) {
+    font-size: 1em;
+}
+
+.container p:nth-child(3) {
+    font-size: 1rem;
+}
+
+ */
+
+/*.box {
+    font-size: 40px;
+    background-color: #0098f7;
+    width: 1em;
+    height: 1em;   font size ı silsek bile container 16 ya 16 olur
+    border: 1em solid;
+}*/
+
+body {
+    margin: 0;
+
+}
+
+.container {
+    overflow: hidden;
+    background-color: #a7a7a7;
+    width: 100vw;
+    height: 100vh;
+}

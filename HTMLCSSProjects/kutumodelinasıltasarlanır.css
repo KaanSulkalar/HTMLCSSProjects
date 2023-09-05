@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+
+}
+
+
+
+/*her zaman box sizing'i border box
+olarak kabul edicez ki düzenli olsun.
+content box şeklinde kullanmamız gerektiği yerler olabilir,
+o durumda gidip hangi elemanda box sizing i
+content box olarak kullnıcağımıza bakıcaz
+ */
+
+div {
+    width: 400px;
+    background-color: darkblue;
+    padding: 40px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 10px solid black;
+}

@@ -1,0 +1,73 @@
+ /*body {
+    background: #a7a7a7;
+
+}
+
+/*tablet için
+@media(max-width: 768px) {
+    body {
+        background: cornflowerblue;
+    }
+    
+}
+
+/*telefonlar için
+
+@media (max-width: 500px) {
+    body {
+        background: aqua;
+    }
+    
+}
+ */
+
+ /*p {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    p {
+        display: block;
+    }
+
+
+}
+
+
+  */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 1px solid black;
+    background: #a7a7a7;
+    padding: 10px;
+    width: 25%;
+
+}
+/*tablet*/
+@media (max-width: 768px) {
+    .box {
+        width: 50%;
+    }
+
+}
+/*telefon*/
+ @media (max-width: 500px) {
+    .box {
+        width: 100%;
+    }
+ }

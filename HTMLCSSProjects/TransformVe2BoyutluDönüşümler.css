@@ -1,0 +1,31 @@
+div {
+    background-color: yellow;
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    /*transform: translate(100px , 300px); ilki x ikinci y */
+    margin-top: 100px;
+    margin-left: 100px;
+    /*transform: rotate(200deg); saat yönünde 200 derece */
+    /*transform: rotate(-200deg); saat yönü tersinde 200 derece */
+    /*transform: scale(2,3); x çarpı 2 , y çarpı 3
+     küçültmek için de 0. lı bir değer girilecek,
+     scaleX veya ScaleY tek bir değer girilebilir*/
+     /*transform: skew(20deg); eğim yaptırmaya yarar
+     skewX veya SkewY yapılabilir, - li derece girilebilir ters yöne
+     işlem yapılır, skew ve scale aynı anda olmaz,
+     birden fazla işleme girer, matrix özelliği ile
+     birden fazla 2 boyutlu etiket kullanılabilir
+     transform: matrix(1, -0.5, 0, 1, 0, 0) */
+
+}
+
+/* 3 boyutlu dönüşümler */
+
+#other {
+   /* transform: rotateX(150deg); 90 da ortada olmaz 3 boyutlu düşün */
+    transform: rotateZ(90deg);
+
+
+}
+

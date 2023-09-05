@@ -1,0 +1,54 @@
+/* html{
+   font-size: 20px;
+
+
+
+
+
+        normal html font size ı 16px dir çarpılarak arttırılabilir
+}
+
+div {
+    font-size: 2em;
+}
+
+p {
+    font-size: 50%;  10px e düştü
+}   */
+
+
+/*div {
+    width: 40vw; viewport-width %40 ını kaplasın
+    height: 10vh; viewport-height %10 unu kaplasın
+    background: #a7a7a7;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+   background: url("imagesForCarPage&TradingPage/porcshe.jpg") center no-repeat;
+   background-size: cover;
+    height: 100vh ;
+    display: flex;
+    flex-direction: column;
+    color: crimson;
+    align-items: center;
+    padding: 5rem;
+
+
+}
+
+h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+p {
+    font-size: 2rem;
+    
+}
+

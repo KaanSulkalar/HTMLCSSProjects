@@ -1,0 +1,16 @@
+img {
+    width: 768px;
+    height: 768px;
+}
+
+img:nth-child(1) {
+    visibility: hidden;
+}
+
+img:nth-child(2) {
+    display: none;
+}
+
+img:nth-child(3) {
+    opacity: 0.2;
+}

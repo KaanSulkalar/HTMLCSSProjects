@@ -1,0 +1,25 @@
+#box-1 {
+    background: gainsboro;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+    border-left-width: 20px;
+    border-left-color: blueviolet;
+    border-left-style: double;
+    border-radius: 8px;
+}
+
+
+div#box-2 {
+    width:  400px;
+    height: 240px;
+    background: darkcyan;
+
+}
+div#box-3 {
+    width: 150px;
+    height: 100px;
+    background: crimson;
+}
+
+/*border color ve sytle ı aynı satırda yapılabilir (sadece border adı altında)
